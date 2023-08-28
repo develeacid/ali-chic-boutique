@@ -1,4 +1,7 @@
-@component('layouts.guest')
+@component('layouts.guest' , [
+    'title' => 'Página de Inicio',
+    'metaDescription' => 'Bienvenido a nuestra página de inicio'
+])
 
     <div class="carousel relative container mx-auto" style="max-width:1600px;">
         <div class="carousel-inner relative overflow-hidden w-full">
