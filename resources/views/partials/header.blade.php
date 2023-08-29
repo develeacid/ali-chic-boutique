@@ -3,11 +3,11 @@
 <div class="offcanvas-menu-wrapper">
     <div class="offcanvas__option">
         <div class="offcanvas__links">
-            <a href="#">Sign in</a>
-            <a href="#">FAQs</a>
+            <a href="/login">Iniciar sesión</a>
+            <a href="#">Preguntas frecuentes</a>
         </div>
         <div class="offcanvas__top__hover">
-            <span>Usd <i class="arrow_carrot-down"></i></span>
+            <span>ES<i class="arrow_carrot-down"></i></span>
             <ul>
                 <li>USD</li>
                 <li>EUR</li>
@@ -23,7 +23,7 @@
     </div>
     <div id="mobile-menu-wrap"></div>
     <div class="offcanvas__text">
-        <p>Free shipping, 30-day return or refund guarantee.</p>
+        <p>Envío gratuito, garantía de devolución o reembolso en 30 días.</p>
     </div>
 </div>
 <!-- Offcanvas Menu End -->
@@ -35,17 +35,17 @@
             <div class="row">
                 <div class="col-lg-6 col-md-7">
                     <div class="header__top__left">
-                        <p>Free shipping, 30-day return or refund guarantee.</p>
+                        <p>Envío gratuito, garantía de devolución o reembolso en 30 días.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-5">
                     <div class="header__top__right">
                         <div class="header__top__links">
-                            <a href="#">Sign in</a>
-                            <a href="#">FAQs</a>
+                            <a href="/login">Iniciar sesión</a>
+                            <a href="#">Preguntas frecuentes</a>
                         </div>
                         <div class="header__top__hover">
-                            <span>Usd <i class="arrow_carrot-down"></i></span>
+                            <span>ES<i class="arrow_carrot-down"></i></span>
                             <ul>
                                 <li>USD</li>
                                 <li>EUR</li>
@@ -61,25 +61,21 @@
         <div class="row">
             <div class="col-lg-3 col-md-3">
                 <div class="header__logo">
-                    <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                    <a href="/"><img src="img/logo.png" alt=""></a>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
                 <nav class="header__menu mobile-menu">
                     <ul>
-                        <li class="active"><a href="/">Home</a></li>
-                        <li><a href="./shop.html">Shop</a></li>
-                        <li><a href="#">Pages</a>
+                        <li class="active"><a href="/">Inicio</a></li>
+                        <li><a href="#">Catálogo</a>
                             <ul class="dropdown">
-                                <li><a href="/">About Us</a></li>
-                                <li><a href="./shop-details.html">Shop Details</a></li>
-                                <li><a href="./shopping-cart.html">Shopping Cart</a></li>
-                                <li><a href="./checkout.html">Check Out</a></li>
-                                <li><a href="./blog-details.html">Blog Details</a></li>
+                                <li><a href="/hombres">Hombre</a></li>
+                                <li><a href="./mujeres">Mujeres</a></li>
+                                <li><a href="./unisex">Unisex</a></li>
                             </ul>
                         </li>
-                        <li><a href="./blog.html">Blog</a></li>
-                        <li><a href="./contact.html">Contacts</a></li>
+                        <li><a href="./contacto">Contacto</a></li>
                     </ul>
                 </nav>
             </div>
